@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KslaNmHGZIGHaHi0uLHIKWtocS7cG/r/24hU5BGuUmw=",
+  "Source": "ApolloEtfPricesWebApi",
+  "BasePath": "_content/ApolloEtfPricesWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

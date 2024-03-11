@@ -1,0 +1,15 @@
+@ApolloEtfPricesWebApi_HostAddress = http://localhost:5205
+
+GET {{ApolloEtfPricesWebApi_HostAddress}}/prices/
+Accept: application/json
+
+###
+
+PUT {{ApolloEtfPricesWebApi_HostAddress}}/addPrice/
+Content-Type: application/json
+
+{
+  "price": 17.11
+}
+
+###

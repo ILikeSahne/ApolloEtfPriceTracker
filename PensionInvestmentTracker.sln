@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PensionInvestmentTracker", "PensionInvestmentTracker\PensionInvestmentTracker.csproj", "{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApolloEtfPriceScrapper", "FinanzenAtWebScraper\ApolloEtfPriceScrapper.csproj", "{10F156BA-1F2F-44EE-A2AE-F7DCF9BC5DE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApolloEtfPricesWebApi", "ApolloEtfPricesWebApi\ApolloEtfPricesWebApi.csproj", "{93EDCD23-2087-40BB-9787-1EE7711F6EF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{10F156BA-1F2F-44EE-A2AE-F7DCF9BC5DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F156BA-1F2F-44EE-A2AE-F7DCF9BC5DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F156BA-1F2F-44EE-A2AE-F7DCF9BC5DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F156BA-1F2F-44EE-A2AE-F7DCF9BC5DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93EDCD23-2087-40BB-9787-1EE7711F6EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EDCD23-2087-40BB-9787-1EE7711F6EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EDCD23-2087-40BB-9787-1EE7711F6EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EDCD23-2087-40BB-9787-1EE7711F6EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B4253EF-6FCD-4E03-8EE0-C3B99B31CC41}
+	EndGlobalSection
+EndGlobal
