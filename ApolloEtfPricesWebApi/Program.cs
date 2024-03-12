@@ -18,16 +18,23 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
-app.MapGet("/prices", async ([FromServices] PriceTable priceTable, CancellationToken ct) =>
+app.MapGet("api/v1/prices", async ([FromServices] PriceTable priceTable, CancellationToken ct) =>
 {
     return Results.Ok(await priceTable.GetAllPricesAsync(ct));
 });
 
-app.MapPut("/addPrice", async ([FromBody] PriceObject price, [FromServices] PriceTable priceTable, CancellationToken ct) =>
+app.MapPut("api/v1/addPrice", async ([FromBody] PriceObject price, [FromServices] PriceTable priceTable, CancellationToken ct) =>
 {
-    await priceTable.AddPriceAvoidDuplicatesAsync(price, ct);
+    var result = await priceTable.AddPriceAvoidDuplicatesAsync(price, ct);
 
-    return Results.Ok();
+    Console.WriteLine($"[{price.DateAndTime}] Adding Price: {price.Price}");
+
+    if (result)
+    {
+        return Results.Ok();
+    }
+
+    return Results.Conflict("A price for the specified time already exists in the Database");
 });
 
 app.Run();

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "ApolloEtfPricesWebApi/1.0.0": {
         "dependencies": {
+          "ApolloEtfPricesApiAccessLibrary": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "MongoDB.Driver": "2.22.0",
           "MongoDB.EntityFrameworkCore": "7.0.0-preview.1"
@@ -228,6 +229,11 @@
             "fileVersion": "0.6.2.0"
           }
         }
+      },
+      "ApolloEtfPricesApiAccessLibrary/1.0.0": {
+        "runtime": {
+          "ApolloEtfPricesApiAccessLibrary.dll": {}
+        }
       }
     }
   },
@@ -439,6 +445,11 @@
       "sha512": "sha512-jPao/LdUNLUz8rn3H1D8W7wQbZsRZM0iayvWI4xGejJg3XJHT56gcmYdgmCGPdJF1UEBqUjucCRrFB+4HbJsbw==",
       "path": "zstdsharp.port/0.6.2",
       "hashPath": "zstdsharp.port.0.6.2.nupkg.sha512"
+    },
+    "ApolloEtfPricesApiAccessLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

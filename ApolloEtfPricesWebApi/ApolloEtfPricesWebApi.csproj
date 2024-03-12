@@ -13,4 +13,8 @@
     <PackageReference Include="MongoDB.EntityFrameworkCore" Version="7.0.0-preview.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ApolloEtfPricesApi\ApolloEtfPricesApiAccessLibrary.csproj" />
+  </ItemGroup>
+
 </Project>

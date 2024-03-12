@@ -1,1 +1,0 @@
-C:\Users\jonat\Desktop\Projects\GRAWE Pensions Vorsorge App\PensionInvestmentTracker\PensionInvestmentTracker\PensionInvestmentTracker.csproj;x64

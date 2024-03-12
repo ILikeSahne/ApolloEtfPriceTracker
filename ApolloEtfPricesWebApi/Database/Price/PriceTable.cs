@@ -14,19 +14,27 @@ internal class PriceTable(DatabaseAccess Database)
         await Database.SaveChangesAsync(ct);
     }
 
-    public async Task AddPriceAvoidDuplicatesAsync(PriceObject price, CancellationToken ct = default)
+    /// <summary>
+    /// Adds a Price to the Database
+    /// </summary>
+    /// <param name="price">Time and Price of the ETF</param>
+    /// <param name="ct">CancellationToken to cancel request if needed</param>
+    /// <returns>True when Price was added to Database</returns>
+    public async Task<bool> AddPriceAvoidDuplicatesAsync(PriceObject price, CancellationToken ct = default)
     {
         if (Database.PriceSet.Any(p => p.DateAndTime == price.DateAndTime))
         {
-            return;
+            return false;
         }
 
         await Database.PriceSet.AddAsync(new PriceSet(price), ct);
         await Database.SaveChangesAsync(ct);
+
+        return true;
     }
 
     public async Task<List<PriceObject>> GetAllPricesAsync(CancellationToken ct = default)
     {
-        return (await Database.PriceSet.ToListAsync(ct)).Select(p => new PriceObject(p)).OrderByDescending(p => p.DateAndTime).ToList();
+        return (await Database.PriceSet.ToListAsync(ct)).Select(p => p.ToPriceObject()).OrderByDescending(p => p.DateAndTime).ToList();
     }
 }

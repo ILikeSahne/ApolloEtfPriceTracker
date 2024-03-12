@@ -26,15 +26,8 @@ public class PriceSet
     public PriceSet() : this(0)
     { }
 
-    public static PriceSet FromCsvLine(string line)
+    public PriceObject ToPriceObject()
     {
-        var args = line.Split(';');
-
-        var date = DateTime.ParseExact(args[0], "dd/MM/yyyy", null);
-        var time = TimeSpan.Parse(args[1]);
-
-        var dateAndTime = date.Add(time);
-
-        return new PriceSet(dateAndTime, double.Parse(args[2]));
+        return new PriceObject(DateAndTime, Price);
     }
 }

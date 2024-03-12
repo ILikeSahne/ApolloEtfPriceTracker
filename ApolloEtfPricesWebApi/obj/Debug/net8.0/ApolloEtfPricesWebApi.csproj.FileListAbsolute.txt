@@ -42,3 +42,5 @@ C:\Users\jonat\Desktop\Projects\GRAWE Pensions Vorsorge App\PensionInvestmentTra
 C:\Users\jonat\Desktop\Projects\GRAWE Pensions Vorsorge App\PensionInvestmentTracker\ApolloEtfPricesWebApi\obj\Debug\net8.0\ApolloEtfPricesWebApi.pdb
 C:\Users\jonat\Desktop\Projects\GRAWE Pensions Vorsorge App\PensionInvestmentTracker\ApolloEtfPricesWebApi\obj\Debug\net8.0\ApolloEtfPricesWebApi.genruntimeconfig.cache
 C:\Users\jonat\Desktop\Projects\GRAWE Pensions Vorsorge App\PensionInvestmentTracker\ApolloEtfPricesWebApi\obj\Debug\net8.0\ref\ApolloEtfPricesWebApi.dll
+C:\Users\jonat\Desktop\Projects\GRAWE Pensions Vorsorge App\PensionInvestmentTracker\ApolloEtfPricesWebApi\bin\Debug\net8.0\ApolloEtfPricesApiAccessLibrary.dll
+C:\Users\jonat\Desktop\Projects\GRAWE Pensions Vorsorge App\PensionInvestmentTracker\ApolloEtfPricesWebApi\bin\Debug\net8.0\ApolloEtfPricesApiAccessLibrary.pdb

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApolloEtfPricesWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccd46c554149e7188d610bfcea3302479ed6997c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e051c797b426dd3455dc450fc1d3981f65058231")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApolloEtfPricesWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApolloEtfPricesWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

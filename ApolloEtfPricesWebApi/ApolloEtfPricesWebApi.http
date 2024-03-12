@@ -1,14 +1,15 @@
 @ApolloEtfPricesWebApi_HostAddress = http://localhost:5205
 
-GET {{ApolloEtfPricesWebApi_HostAddress}}/prices/
+GET {{ApolloEtfPricesWebApi_HostAddress}}/api/v1/prices/
 Accept: application/json
 
 ###
 
-PUT {{ApolloEtfPricesWebApi_HostAddress}}/addPrice/
+PUT {{ApolloEtfPricesWebApi_HostAddress}}/api/v1/addPrice/
 Content-Type: application/json
 
 {
+  "dateAndTime": "2024-03-12T20:46:58.591Z",
   "price": 17.11
 }
 

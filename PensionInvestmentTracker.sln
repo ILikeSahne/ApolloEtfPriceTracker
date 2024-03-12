@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PensionInvestmentTracker", "PensionInvestmentTracker\PensionInvestmentTracker.csproj", "{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApolloEtfPricesWebApi", "ApolloEtfPricesWebApi\ApolloEtfPricesWebApi.csproj", "{93EDCD23-2087-40BB-9787-1EE7711F6EF2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApolloEtfPriceScrapper", "FinanzenAtWebScraper\ApolloEtfPriceScrapper.csproj", "{10F156BA-1F2F-44EE-A2AE-F7DCF9BC5DE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApolloEtfInvestmentTracker", "ApolloEtfInvestmentTracker\ApolloEtfInvestmentTracker.csproj", "{20064389-CFA2-4089-A3E2-095ACA2D0E74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApolloEtfPricesWebApi", "ApolloEtfPricesWebApi\ApolloEtfPricesWebApi.csproj", "{93EDCD23-2087-40BB-9787-1EE7711F6EF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApolloEtfPriceScrapper", "ApolloEtfPriceScrapper\ApolloEtfPriceScrapper.csproj", "{72FBF962-A44C-4E0E-A413-FE112F569F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApolloEtfPricesApiAccessLibrary", "ApolloEtfPricesApi\ApolloEtfPricesApiAccessLibrary.csproj", "{B270DF44-E497-45AF-8277-5D33EE2850EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,20 +17,24 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07C0FAC0-206F-4B7C-A1FC-76BB42D593CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{10F156BA-1F2F-44EE-A2AE-F7DCF9BC5DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10F156BA-1F2F-44EE-A2AE-F7DCF9BC5DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10F156BA-1F2F-44EE-A2AE-F7DCF9BC5DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10F156BA-1F2F-44EE-A2AE-F7DCF9BC5DE9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{93EDCD23-2087-40BB-9787-1EE7711F6EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{93EDCD23-2087-40BB-9787-1EE7711F6EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93EDCD23-2087-40BB-9787-1EE7711F6EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93EDCD23-2087-40BB-9787-1EE7711F6EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20064389-CFA2-4089-A3E2-095ACA2D0E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20064389-CFA2-4089-A3E2-095ACA2D0E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20064389-CFA2-4089-A3E2-095ACA2D0E74}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{20064389-CFA2-4089-A3E2-095ACA2D0E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20064389-CFA2-4089-A3E2-095ACA2D0E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20064389-CFA2-4089-A3E2-095ACA2D0E74}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{72FBF962-A44C-4E0E-A413-FE112F569F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FBF962-A44C-4E0E-A413-FE112F569F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FBF962-A44C-4E0E-A413-FE112F569F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FBF962-A44C-4E0E-A413-FE112F569F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B270DF44-E497-45AF-8277-5D33EE2850EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B270DF44-E497-45AF-8277-5D33EE2850EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B270DF44-E497-45AF-8277-5D33EE2850EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B270DF44-E497-45AF-8277-5D33EE2850EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
